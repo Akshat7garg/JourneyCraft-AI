@@ -2,6 +2,7 @@
 import { prisma } from "@/lib/prisma"
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import GoogleProvider from "next-auth/providers/google";
+import EmailProvider from 'next-auth/providers/email'
 import { JWT } from "next-auth/jwt";
 import {Session} from "next-auth"
 
@@ -10,6 +11,12 @@ export const NEXT_AUTH_CONFIG={
     
     adapter: PrismaAdapter(prisma),
     providers:[
+      EmailProvider({
+        server:process.env.MAIL_SERVER,
+        from: process.env.EMAIL_FROM
+
+      })
+        ,
         GoogleProvider({
             clientId: process.env.GOOGLE_CLIENT_ID ?? "",
             clientSecret: process.env.GOOGLE_CLIENT_SECRET ?? ""
