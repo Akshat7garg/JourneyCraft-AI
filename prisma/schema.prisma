@@ -32,15 +32,31 @@ model Account {
   @@unique([provider, providerAccountId])
 }
 
+model UserPrefernce {
+  id          String   @id @default(cuid())
+  userId      String   @unique
+  from        String
+  to          String
+  depDate     DateTime
+  arrivalDate DateTime
+  adult       Int
+  children    Int      @default(0)
+  addInput    String?
+
+  user  User @relation(fields: [userId],references: [id])
+}
+
 model User {
-  id            String    @id @default(cuid())
-  name          String?
-  password      String?
-  email         String?   @unique
-  emailVerified DateTime?
-  image         String?
-  accounts      Account[]
-  sessions      Session[]
+  id              String         @id @default(cuid())
+  name            String?
+  password        String?
+  email           String?        @unique
+  emailVerified   DateTime?
+  image           String?
+  accounts        Account[]
+  sessions        Session[]
+  prefernces   UserPrefernce?
+  
 }
 
 model Session {

@@ -32,11 +32,9 @@ export const NEXT_AUTH_CONFIG={
           }
           return token;
         },
-        async session({ session, token }:{session:Session,token:JWT}) {
+        async session({ session, token,user }:{session:Session,token:JWT,user:any}) {
           // Add the token data (accessToken, userId) to the session object
-          if (token) {
-            
-          }
+          session.user.id=user.id
           return session;
         },
       }
