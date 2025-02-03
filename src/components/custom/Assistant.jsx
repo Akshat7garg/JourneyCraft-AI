@@ -66,7 +66,7 @@ function Assistant() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: `${trimmedInput} (Try to concisely respond with maximum 150 tokens and in a single paragraph.)`,
+        body: `${trimmedInput} (Try to concisely respond with maximum 150 tokens and in a single paragraph and also the key of the response value is named as response.)`,
       });
 
       if (!response.ok) {
