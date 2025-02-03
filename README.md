@@ -1,7 +1,7 @@
-# journeyCraft AI
+# JourneyCraft AI
 
 ## Overview
-journeyCraft AI is an AI-powered itinerary planner designed to simplify group travel planning. It provides real-time collaboration, personalized recommendations, and integrated booking to create seamless travel experiences.
+JourneyCraft AI is an AI-powered itinerary planner designed to simplify group travel planning. It provides real-time collaboration, personalized recommendations, and integrated booking to create seamless travel experiences.
 
 ## Features
 - **AI-Powered Itinerary Planner**: Generates optimized travel itineraries based on user preferences.
@@ -14,13 +14,13 @@ journeyCraft AI is an AI-powered itinerary planner designed to simplify group tr
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/akshat7garg/journeyCraftAI.git
-cd journeyCraftAI
+git clone https://github.com/Akshat7garg/JourneyCraft-AI.git
+cd JourneyCraft-AI
 ```
 
 ### 2. Set Up AI Model
 ```sh
-cd ai_model
+cd ai_integrattion
 pip install -r requirements.txt
 python app.py
 ```
