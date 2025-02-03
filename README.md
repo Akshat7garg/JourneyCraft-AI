@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# journeyCraft AI
 
-## Getting Started
+## Overview
+journeyCraft AI is an AI-powered itinerary planner designed to simplify group travel planning. It provides real-time collaboration, personalized recommendations, and integrated booking to create seamless travel experiences.
 
-First, run the development server:
+## Features
+- **AI-Powered Itinerary Planner**: Generates optimized travel itineraries based on user preferences.
+- **Real-Time Group Collaboration**: Allows multiple users to edit and manage itineraries together.
+- **Destination Insights & Previews**: Provides detailed information about destinations, including attractions and local tips.
+- **Booking Integration**: Enables direct booking of hotels, transport, and activities.
+- **Chatbot Assistance**: Offers real-time travel support and suggestions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Installation
+
+### 1. Clone the Repository
+```sh
+git clone https://github.com/akshat7garg/journeyCraftAI.git
+cd journeyCraftAI
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Set Up AI Model
+```sh
+cd ai_model
+pip install -r requirements.txt
+python app.py
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Start the Backend Server
+_Open a new terminal and run:_
+```sh
+npm install
+node server/index.js
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. Start the Frontend
+_Open another new terminal and run:_
+```sh
+npm run dev
+```
 
-## Learn More
+## Tech Stack
+- **Frontend**: React, Tailwind CSS
+- **Backend**: Node.js, Express
+- **Database**: Firebase
+- **Real-Time Communication**: Socket.IO
+- **AI Model**: Python (Flask-based service)
+- **Maps & Location Services**: Google Maps API
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
+1. Open the application in the browser after running the frontend.
+2. Enter your trip details to generate an itinerary.
+3. Invite group members to collaborate in real-time.
+4. Explore destination insights and book travel arrangements.
+5. Use the chatbot for instant travel assistance.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`feature-branch`).
+3. Commit your changes.
+4. Push to your branch and submit a pull request.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
+This project is licensed under the MIT License.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

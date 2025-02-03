@@ -1,0 +1,45 @@
+.flight-card {
+    display: flex;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flight-image {
+    width: 100px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flight-image img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  
+  .flight-details {
+    margin-left: 20px;
+    flex-grow: 1;
+  }
+  
+  .book-now-button {
+    background-color: gold;
+    color: black;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .book-now-button:hover {
+    background-color: darkorange;
+  }
