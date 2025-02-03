@@ -10,6 +10,14 @@ JourneyCraft AI is an AI-powered itinerary planner designed to simplify group tr
 - **Booking Integration**: Enables direct booking of hotels, transport, and activities.
 - **Chatbot Assistance**: Offers real-time travel support and suggestions.
 
+## 📽️ Project Demonstration
+
+Watch the video demonstration of **JourneyCraft AI** in action:  
+
+[https://drive.google.com/file/d/1j430WWCjAKjjbMlV29CQVFMG_-lDTpdS/view?usp=sharing](https://drive.google.com/file/d/1j430WWCjAKjjbMlV29CQVFMG_-lDTpdS/view?usp=sharing)
+
+> If the video doesn't load, ensure you have access to the shared link.
+
 ## Installation
 
 ### 1. Clone the Repository
