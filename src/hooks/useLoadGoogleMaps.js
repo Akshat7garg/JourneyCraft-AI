@@ -12,7 +12,7 @@ function useLoadGoogleMaps() {
         }
 
         const script = document.createElement("script");
-        script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDtyHzZsm5lEgXkUuIwAbwdWsNVxt3o1oU&libraries=places';
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${import.meta.env.VITE_GOOGLE_PLACE_API_KEY}=places`;
         script.async = true;
         script.defer = true;
         script.onload = ()=> setIsLoad(true);
