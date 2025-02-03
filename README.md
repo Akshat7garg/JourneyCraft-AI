@@ -1,9 +1,9 @@
-# JourneyCraft AI
+# 🚀 JourneyCraft AI
 
 ## Overview
 JourneyCraft AI is an AI-powered itinerary planner designed to simplify group travel planning. It provides real-time collaboration, personalized recommendations, and integrated booking to create seamless travel experiences.
 
-## Features
+## ✨ Features
 - **AI-Powered Itinerary Planner**: Generates optimized travel itineraries based on user preferences.
 - **Real-Time Group Collaboration**: Allows multiple users to edit and manage itineraries together.
 - **Destination Insights & Previews**: Provides detailed information about destinations, including attractions and local tips.
@@ -14,39 +14,41 @@ JourneyCraft AI is an AI-powered itinerary planner designed to simplify group tr
 
 Watch the video demonstration of **JourneyCraft AI** in action:  
 
+[![Watch the Video](https://github.com/Akshat7garg/JourneyCraft-AI/blob/main/public/Landing_page.png)](https://drive.google.com/file/d/1j430WWCjAKjjbMlV29CQVFMG_-lDTpdS/view?usp=sharing)
+
 [https://drive.google.com/file/d/1j430WWCjAKjjbMlV29CQVFMG_-lDTpdS/view?usp=sharing](https://drive.google.com/file/d/1j430WWCjAKjjbMlV29CQVFMG_-lDTpdS/view?usp=sharing)
 
 > If the video doesn't load, ensure you have access to the shared link.
 
-## Installation
+## 🛠 Installation
 
-### 1. Clone the Repository
+### 1️⃣ Clone the Repository
 ```sh
 git clone https://github.com/Akshat7garg/JourneyCraft-AI.git
 cd JourneyCraft-AI
 ```
 
-### 2. Set Up AI Model
+### 2️⃣ Set Up AI Model
 ```sh
 cd ai_integration
 pip install -r requirements.txt
 python app.py
 ```
 
-### 3. Start the Backend Server
+### 3️⃣ Start the Backend Server
 _Open a new terminal and run:_
 ```sh
 npm install
 node server/index.js
 ```
 
-### 4. Start the Frontend
+### 4️⃣ Start the Frontend
 _Open another new terminal and run:_
 ```sh
 npm run dev
 ```
 
-## Tech Stack
+## 🏗 Tech Stack
 - **Frontend**: React, Tailwind CSS
 - **Backend**: Node.js, Express
 - **Database**: Firebase
@@ -54,20 +56,20 @@ npm run dev
 - **AI Model**: Python (Flask-based service)
 - **Maps & Location Services**: Google Maps API
 
-## Usage
+## 🚀 Usage
 1. Open the application in the browser after running the frontend.
 2. Enter your trip details to generate an itinerary.
 3. Invite group members to collaborate in real-time.
 4. Explore destination insights and book travel arrangements.
 5. Use the chatbot for instant travel assistance.
 
-## Contributing
+## 🤝 Contributing
 Contributions are welcome! Please follow these steps:
 1. Fork the repository.
 2. Create a new branch (`feature-branch`).
 3. Commit your changes.
 4. Push to your branch and submit a pull request.
 
-## License
+## 📜 License
 This project is licensed under the MIT License.
 
