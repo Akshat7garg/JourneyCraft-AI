@@ -20,7 +20,7 @@ cd JourneyCraft-AI
 
 ### 2. Set Up AI Model
 ```sh
-cd ai_integrattion
+cd ai_integration
 pip install -r requirements.txt
 python app.py
 ```
