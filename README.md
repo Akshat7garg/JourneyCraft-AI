@@ -18,8 +18,6 @@ Watch the video demonstration of **JourneyCraft AI** in action:
 
 [https://drive.google.com/file/d/1j430WWCjAKjjbMlV29CQVFMG_-lDTpdS/view?usp=sharing](https://drive.google.com/file/d/1j430WWCjAKjjbMlV29CQVFMG_-lDTpdS/view?usp=sharing)
 
-> If the video doesn't load, ensure you have access to the shared link.
-
 ## 🛠 Installation
 
 ### 1️⃣ Clone the Repository
@@ -28,21 +26,29 @@ git clone https://github.com/Akshat7garg/JourneyCraft-AI.git
 cd JourneyCraft-AI
 ```
 
-### 2️⃣ Set Up AI Model
+### 2️⃣ Set Up Environment Variables
+Before running the project, make sure to set up the environment variables in two places:
+
+- **First**, inside the `ai_integration` folder.
+- **Second**, in the global environment variables file.
+
+The required environment variables are shared via a Google Drive link in the submitted PPT.
+
+### 3️⃣ Set Up AI Model
 ```sh
 cd ai_integration
 pip install -r requirements.txt
 python app.py
 ```
 
-### 3️⃣ Start the Backend Server
+### 4️⃣ Start the Backend Server
 _Open a new terminal and run:_
 ```sh
 npm install
 node server/index.js
 ```
 
-### 4️⃣ Start the Frontend
+### 5️⃣ Start the Frontend
 _Open another new terminal and run:_
 ```sh
 npm run dev
