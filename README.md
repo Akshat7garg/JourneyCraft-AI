@@ -54,12 +54,24 @@ _Open another new terminal and run:_
 npm run dev
 ```
 
+## 🚧 Deployment Notice
+
+This project has been developed and the full codebase is available in this repository.
+
+🛠️ It is currently undergoing **testing and optimization** to ensure high performance and responsiveness.
+
+📅 **Scheduled Deployment:** 7th May 2025  
+✅ **Codebase Status:** Updated and available
+
+Stay tuned for the live version!
+
+
 ## 🏗 Tech Stack
 - **Frontend**: React, Tailwind CSS
 - **Backend**: Node.js, Express
 - **Database**: Firebase
 - **Real-Time Communication**: Socket.IO
-- **AI Model**: Python (Flask-based service)
+- **AI Model**: Python (Flask-based service) & Gemini Embedded Model
 - **Maps & Location Services**: Google Maps API
 
 ## 🚀 Usage
@@ -75,7 +87,3 @@ Contributions are welcome! Please follow these steps:
 2. Create a new branch (`feature-branch`).
 3. Commit your changes.
 4. Push to your branch and submit a pull request.
-
-## 📜 License
-This project is licensed under the MIT License.
-
