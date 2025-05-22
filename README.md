@@ -60,7 +60,7 @@ This project has been developed and the full codebase is available in this repos
 
 🛠️ It is currently undergoing **testing and optimization** to ensure high performance and responsiveness.
 
-📅 **Scheduled Deployment:** 16th May 2025  
+📅 **Scheduled Deployment:** 1st June 2025 (EOD or before)  
 ✅ **Codebase Status:** Updated and available
 
 Stay tuned for the live version!
