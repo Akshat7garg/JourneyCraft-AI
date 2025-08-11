@@ -54,18 +54,6 @@ _Open another new terminal and run:_
 npm run dev
 ```
 
-## 🚧 Deployment Notice
-
-This project has been developed and the full codebase is available in this repository.
-
-🛠️ It is currently undergoing **testing and optimization** to ensure high performance and responsiveness.
-
-📅 **Scheduled Deployment:** 24th June 2025 (EOD or before)  
-✅ **Codebase Status:** Updated and available
-
-Stay tuned for the live version!
-
-
 ## 🏗 Tech Stack
 - **Frontend**: React, Tailwind CSS
 - **Backend**: Node.js, Express
