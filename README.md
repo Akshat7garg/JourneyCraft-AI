@@ -75,3 +75,6 @@ Contributions are welcome! Please follow these steps:
 2. Create a new branch (`feature-branch`).
 3. Commit your changes.
 4. Push to your branch and submit a pull request.
+
+## 🚧 Important
+We’re working on a revamped version of this website — coming soon ✨
